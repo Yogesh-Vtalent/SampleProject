@@ -15,10 +15,10 @@ namespace SampleProject.BussinessLayer
         {
             return A - B;
         }
-        public int Multiplication()
+        public int Multiplication(int C)
         {
-            int a = 5, b = 2, c;
-            return c = a * b;
+            int a = 5, b = 2;
+            return C = a * b;
         }
     }
 }
